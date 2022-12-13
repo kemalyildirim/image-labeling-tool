@@ -10,7 +10,7 @@ import {
   Typography,
   Drawer,
 } from "@mui/material";
-import { BrowserRouter, Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import LabelsItem from "./LabelsItem";
 import ImagesItem from "./ImagesItem";

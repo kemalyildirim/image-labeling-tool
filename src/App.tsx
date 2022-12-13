@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
