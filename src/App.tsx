@@ -2,6 +2,7 @@ import { Box, createTheme, CssBaseline } from "@mui/material";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { routes } from "./routes";
 import Sidebar from "./components/Sidebar";
+import NotFound from "./pages/NotFound";
 
 function App() {
   const theme = createTheme({
@@ -41,6 +42,7 @@ function App() {
                 element={<route.component />}
               />
             ))}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </Box>
