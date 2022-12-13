@@ -1,16 +1,16 @@
-import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
+import HomeIcon from '@mui/icons-material/Home';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import { Link } from "react-router-dom";
 
-export default function StartAnnotationsItem() {
+export default function HomeItem() {
     return (
-        <ListItemButton LinkComponent={Link} href="/annotating">
+        <ListItemButton LinkComponent={Link} href="/">
               <ListItemIcon>
-                <AutoFixHighIcon/>
+                <HomeIcon/>
               </ListItemIcon>
-              <ListItemText primary="Start Annotating" />
+              <ListItemText primary="Home" />
         </ListItemButton>
     )
 }
