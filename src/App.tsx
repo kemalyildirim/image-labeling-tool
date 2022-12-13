@@ -1,9 +1,10 @@
-import { Navbar } from "./components/Navbar";
+import SideBar from "./components/sidebar/SideBar";
 
 function App() {
   return (
   <div className="app">
-    <Navbar/>
+    {/* <script src="https://docs.opencv.org/4.5.4/opencv.js"></script> */}
+    <SideBar/>
   </div>
   )
 }
