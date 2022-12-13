@@ -27,6 +27,7 @@ function App() {
       <CssBaseline />
       <Sidebar />
       <Box
+        bgcolor={"whitesmoke"}
         height="100vh"
         display="flex"
         justifyContent="center"
