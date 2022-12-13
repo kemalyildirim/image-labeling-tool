@@ -11,10 +11,10 @@ import {
   Drawer,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import LabelsItem from "./LabelsItem";
-import ImagesItem from "./ImagesItem";
-import StartAnnotationsItem from "./StartAnnotationsItem";
-import HomeItem from "./HomeItem";
+import LabelsItem from "./sidebar/LabelsItem";
+import ImagesItem from "./sidebar/ImagesItem";
+import AnnotationsItem from "./sidebar/AnnotationsItem";
+import HomeItem from "./sidebar/HomeItem";
 
 export default function Sidebar() {
   const sidebarWidth = 240;
@@ -30,7 +30,7 @@ export default function Sidebar() {
         <HomeItem />
         <LabelsItem />
         <ImagesItem />
-        <StartAnnotationsItem />
+        <AnnotationsItem />
       </List>
     </div>
   );

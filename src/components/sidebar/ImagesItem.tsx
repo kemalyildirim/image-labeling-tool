@@ -2,11 +2,11 @@ import ImageIcon from "@mui/icons-material/Image";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function ImagesItem() {
   return (
-    <ListItemButton LinkComponent={Link} href="/images">
+    <ListItemButton LinkComponent={NavLink} href="/images">
       <ListItemIcon>
         <ImageIcon />
       </ListItemIcon>

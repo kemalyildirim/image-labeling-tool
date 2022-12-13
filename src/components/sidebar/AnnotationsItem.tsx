@@ -2,11 +2,11 @@ import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-export default function StartAnnotationsItem() {
+export default function AnnotationsItem() {
   return (
-    <ListItemButton LinkComponent={Link} href="/annotating">
+    <ListItemButton LinkComponent={NavLink} href="/annotating">
       <ListItemIcon>
         <AutoFixHighIcon />
       </ListItemIcon>

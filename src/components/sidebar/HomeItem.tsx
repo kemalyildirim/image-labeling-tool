@@ -2,11 +2,11 @@ import HomeIcon from "@mui/icons-material/Home";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function HomeItem() {
   return (
-    <ListItemButton LinkComponent={Link} href="/">
+    <ListItemButton LinkComponent={NavLink} href="/">
       <ListItemIcon>
         <HomeIcon />
       </ListItemIcon>
